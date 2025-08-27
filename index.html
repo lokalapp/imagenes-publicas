@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Galería de Imágenes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      color: #333;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      transition: transform 0.2s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <h1>Mis Imágenes Públicas</h1>
+  <p>Haz clic derecho en una imagen → "Copiar dirección de imagen" para obtener su URL pública.</p>
+  <div class="gallery">
+    <img src="images/foto1.jpg" alt="Foto 1">
+    <img src="images/foto2.png" alt="Foto 2">
+    <img src="images/logo.png" alt="Logo">
+  </div>
+</body>
+</html>
