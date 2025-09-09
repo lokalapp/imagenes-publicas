@@ -1,63 +1,79 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>Galería de Imágenes</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      background: #f4f4f4;
-      margin: 0;
-      padding: 20px;
-    }
-    h1 {
-      color: #333;
-    }
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 15px;
-      margin-top: 20px;
-    }
-    .gallery img {
-      width: 100%;
-      border-radius: 10px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-      transition: transform 0.2s ease;
-    }
-    .gallery img:hover {
-      transform: scale(1.05);
-    }
-  </style>
-</head>
-<body>
-  <h1>Mis Imágenes Públicas</h1>
-  <p>Haz clic derecho en una imagen → "Copiar dirección de imagen" para obtener su URL pública.</p>
-  <div class="gallery">
-<div class="gallery">
-  <img src="1000_F_205498258_AfQmtyR5kO5llwKd6fWRRxcc4xRUbQcb.jpg" alt="Foto 1">
-  <img src="attachment_69413749.png" alt="Foto 2">
-  <img src="cafeteria_vintage.PNG" alt=" logo de cafeteria vintage">
-  <img src="logo_spa.PNG" alt=" logo de cafeteria vintage">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Galería de Imágenes</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background: #f4f4f4;
+        margin: 0;
+        padding: 20px;
+      }
+      h1 {
+        color: #333;
+      }
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 15px;
+        margin-top: 20px;
+      }
+      .gallery img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        transition: transform 0.2s ease;
+      }
+      .gallery img:hover {
+        transform: scale(1.05);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Mis Imágenes Públicas</h1>
+    <p>
+      Haz clic derecho en una imagen → "Copiar dirección de imagen" para obtener
+      su URL pública.
+    </p>
 
-    <img src="blackbarber1.jpeg" alt="">
-    <img src="blackbarber2.jpeg" alt=" ">
-    <img src="blackbarber_hero.jpeg" alt=" ">
-    <img src="blackbarber_logo.png" alt=" logo de e">
+    <div class="gallery">
+      <!-- Las imágenes existentes van aquí -->
+      <img
+        src="imagenes/1000_F_205498258_AfQmtyR5kO5llwKd6fWRRxcc4xRUbQcb.jpg"
+        alt="Foto 1"
+      />
+      <img src="attachment_69413749.png" alt="Foto 2" />
+      <img src="cafeteria_vintage.PNG" alt=" logo de cafeteria vintage" />
+      <img src="logo_spa.PNG" alt=" logo de spa" />
+      <img src="blackbarber1.jpeg" alt="Corte de barbería 1" />
+      <img src="blackbarber2.jpeg" alt="Corte de barbería 2" />
+      <img src="blackbarber_hero.jpeg" alt="Hero image de barbería" />
+      <img src="blackbarber_logo.png" alt="Logo de Black Barber" />
+      <img src="bonuzz_chica_spa.png" alt="Imagen de Spa Bonuzz" />
+      <img
+        src="barbershop_rojche_buenaonda.jpeg"
+        alt="Cliente en Rojche Barber Shop"
+      />
+      <img
+        src="barbershop_rojche_clienteagusto.jpeg"
+        alt="Cliente a gusto en Rojche Barber Shop"
+      />
+      <img
+        src="barbershop_rojche_cortemoderno.png"
+        alt="Corte moderno en Rojche"
+      />
+      <img
+        src="barbershop_rojche_grecas.png"
+        alt="Corte con grecas en Rojche"
+      />
 
-      <img src="bonuzz_chica_spa.png" alt=" logo de e">
-  <img src="bonuzz_chica_spa.png" alt=" logo de e">
-
-  <img src="barbershop_rojche_buenaonda.jpeg" alt=" logo de e">
-  <img src="barbershop_rojche_clienteagusto.jpeg" alt=" logo de e">
-  <img src="barbershop_rojche_cortemoderno.png" alt=" logo de e">
-  <img src="barbershop_rojche_grecas.png" alt=" logo de e">
-  
-<img src="https://lokalapp.github.io/imagenes-publicas/imagenes/imagenes" alt="Imagen de la galería - imagenes" class="rounded-lg shadow-md aspect-square object-cover w-full">
-</div>
-  <img src="https://lokalapp.github.io/imagenes-publicas/imagenes/imagenes" alt="Imagen de la galería - imagenes" class="rounded-lg shadow-md aspect-square object-cover w-full">
-</div>
-</body>
+      <img src="imagenes/anatomia_de_un_prompt.jpg" alt="Imagen de la galería - anatomia_de_un_prompt.jpg" class="rounded-lg shadow-md aspect-square object-cover w-full">
+    <!-- AGREGAR_IMAGENES_AQUI -->
+    </div>
+  </body>
 </html>
 
