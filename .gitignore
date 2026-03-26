@@ -4,3 +4,10 @@ libwebp-1.6.0-windows-x64/
 # Excluir archivos ejecutables sueltos
 *.exe
 *.ps1
+
+
+# Imágenes originales (Git solo verá los .webp creados por el script)
+imagenes/*.jpg
+imagenes/*.jpeg
+imagenes/*.png
+
