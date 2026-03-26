@@ -1,0 +1,6 @@
+# Excluir la carpeta de herramientas de conversión
+libwebp-1.6.0-windows-x64/
+
+# Excluir archivos ejecutables sueltos
+*.exe
+*.ps1

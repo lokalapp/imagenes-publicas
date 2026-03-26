@@ -1,0 +1,21 @@
+requermiento
+
+se agregara una caracteristica en el  administrador que permita generar un codigo qr 
+este codigo qr tendra el objetivo de dirigir a una encuenta a los clientes de un negocio,
+y para esto tendra que ser dirigido primeramente a la pagina del cliente es decir c/[ slug ]/ mi negocio
+si el cliente ya esta registrado en el negocio lo manda directamente a la encuesta
+si el clinete es nuevo primero se registra y luego lo manda directamente l negocio
+
+la encuesta mostrara una serie de preguntas que se contestaran con estrellas del 1 al 5 
+y al final se hara una ponderacion para ver cual es la calificaiones .
+si la calificacion es 4 o mayor se le pedira que coonteste una review de google y se le enviara para alla
+en caso de ser menor se agradecera al usuario.
+
+para cualquiera de los dos casos se asignara un puntaje por contestar la encuesta al cliente.
+
+en el administrador se pueden de dar de alta o de baja las preguntas para la encuesta , asi mismo estas 
+se pueden activar o desactivar segun se requiera mostrandose en la encuesta solo las activas
+habnra un encabezado editatble
+y la encuesta estara asociada a la fehca en la que sea contestada para efectos de estadistica.
+tambien se debe de poder configurar elpuntaje por contestar la encuesta y la frecuencia en horas para cque
+un cliente pueda contestar la encuesta
